@@ -1,0 +1,10 @@
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: ..\MPU6050\inv_mpu_dmp_motion_driver.c
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: D:\MDK\ARM\ARMCC\Bin\..\include\math.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: ..\MPU6050\dmpKey.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: ..\MPU6050\dmpmap.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: ..\MPU6050\inv_mpu.h
+unicorn-rxt0\inv_mpu_dmp_motion_driver.o: ..\MPU6050\inv_mpu_dmp_motion_driver.h

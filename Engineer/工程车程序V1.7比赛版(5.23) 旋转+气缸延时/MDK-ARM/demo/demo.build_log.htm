@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: C 754678372@qq.com, c, LIC=0VRBS-L3QFP-VIC5N-YU56C-53ITL-ZHMC9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  D:\Keil5 MDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+D:\机械创意大赛\工程车程序V1.7比赛版(5.23) 旋转+气缸延时\MDK-ARM\demo.uvprojx
+Project File Date:  07/29/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Keil5 MDK\ARM\ARMCC\Bin'
+Build target 'demo'
+compiling pan_tilt_control.c...
+"no source": Error:  #5: cannot open source input file "F:\aaa\pan_tilt_control.c": No such file or directory
+F:\aaa\pan_tilt_control.c: 0 warnings, 1 error
+compiling robomaster_shoot.c...
+"no source": Error:  #5: cannot open source input file "F:\aaa\robomaster_shoot.c": No such file or directory
+F:\aaa\robomaster_shoot.c: 0 warnings, 1 error
+compiling robomaster_control.c...
+bsp\robomaster_control.h(23): warning:  #1295-D: Deprecated declaration Card_save - give arg types
+  void Card_save();
+bsp\robomaster_control.c(270): error:  #20: identifier "carry_cut" is undefined
+  	set_upthrow_current(&hcan1,pid_speed.output,carry_cut);	
+bsp\robomaster_control.c(270): error:  #140: too many arguments in function call
+  	set_upthrow_current(&hcan1,pid_speed.output,carry_cut);	
+bsp\robomaster_control.c(285): error:  #20: identifier "carry_cut" is undefined
+  	set_upthrow_current(&hcan1,pid_speed.output,carry_cut);	
+bsp\robomaster_control.c(285): error:  #140: too many arguments in function call
+  	set_upthrow_current(&hcan1,pid_speed.output,carry_cut);	
+bsp\robomaster_control.c(300): error:  #18: expected a ")"
+  {
+bsp\robomaster_control.c(322): warning:  #12-D: parsing restarts here after previous syntax error
+  			}
+bsp\robomaster_control.c(322): error:  #18: expected a ")"
+  			}
+bsp\robomaster_control.c(322): error:  #127: expected a statement
+  			}
+bsp\robomaster_control.c(324): error:  #169: expected a declaration
+   }
+bsp\robomaster_control.c(548): warning:  #12-D: parsing restarts here after previous syntax error
+  u8  fee_flag=0;
+bsp\robomaster_control.c(553): error:  #20: identifier "fee_flag" is undefined
+     fee_flag=1;
+bsp\robomaster_control.c(557): error:  #20: identifier "fee_flag" is undefined
+  		fee_flag=0;
+bsp\robomaster_control.c(559): error:  #20: identifier "fee_flag" is undefined
+  	 if(fee_flag ==1)
+bsp\robomaster_control.c: 3 warnings, 11 errors
+"demo\demo.axf" - 13 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_demo
+  D:\Keil5 MDK\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

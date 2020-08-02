@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 LEGEND, 123, LIC=HN0AE-5VUAI-Z9AG9-4B8JE-ILF2B-NTCE8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  F:\keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.31.18.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+E:\STM32\RM A\Demo\MDK-ARM\Demo.uvprojx
+Project File Date:  07/30/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'F:\keil_v5\ARM\ARMCC\Bin'
+Build target 'Demo'
+compiling examination_task.c...
+..\TASK\examination_task.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MATH\trigonometric_funtion.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\TASK\examination_task.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\TASK\examination_task.c(9): error:  #20: identifier "uint_8" is undefined
+  	uint_8 i = 0;
+..\TASK\examination_task.c(28): warning:  #223-D: function "SosKernelSysTick" declared implicitly
+  				osDelayUntil(&SosKernelSysTick() ,50);
+..\TASK\examination_task.c(28): error:  #158: expression must be an lvalue or a function designator
+  				osDelayUntil(&SosKernelSysTick() ,50);
+..\TASK\examination_task.c(56): warning:  #223-D: function "SosKernelSysTick" declared implicitly
+  				osDelayUntil(&SosKernelSysTick() ,200);
+..\TASK\examination_task.c(56): error:  #158: expression must be an lvalue or a function designator
+  				osDelayUntil(&SosKernelSysTick() ,200);
+..\TASK\examination_task.c(80): warning:  #223-D: function "SosKernelSysTick" declared implicitly
+  				osDelayUntil(&SosKernelSysTick() ,50);
+..\TASK\examination_task.c(80): error:  #158: expression must be an lvalue or a function designator
+  				osDelayUntil(&SosKernelSysTick() ,50);
+..\TASK\examination_task.c(89): error:  #20: identifier "Task_Task_Examination" is undefined
+  		vTaskDelete(Task_Task_Examination);
+..\TASK\examination_task.c: 6 warnings, 5 errors
+compiling chassis_task.c...
+..\TASK\examination_task.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\MATH\trigonometric_funtion.h(25): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\TASK\chassis_task.c(211): warning:  #940-D: missing return statement at end of non-void function "relative_angle" 
+  }
+..\TASK\chassis_task.c(195): warning:  #177-D: variable "value"  was declared but never referenced
+  	uint16_t value = 0;
+..\TASK\chassis_task.c: 4 warnings, 0 errors
+"Demo\Demo.axf" - 5 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Demo
+  F:\keil_v5\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  F:\keil_v5\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Target not created.
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+uav_holder\inv_mpu_dmp_motion_driver.o: MPU6050\inv_mpu_dmp_motion_driver.c
+uav_holder\inv_mpu_dmp_motion_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+uav_holder\inv_mpu_dmp_motion_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uav_holder\inv_mpu_dmp_motion_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+uav_holder\inv_mpu_dmp_motion_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+uav_holder\inv_mpu_dmp_motion_driver.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+uav_holder\inv_mpu_dmp_motion_driver.o: MPU6050\dmpKey.h
+uav_holder\inv_mpu_dmp_motion_driver.o: MPU6050\dmpmap.h
+uav_holder\inv_mpu_dmp_motion_driver.o: MPU6050\inv_mpu.h
+uav_holder\inv_mpu_dmp_motion_driver.o: MPU6050\inv_mpu_dmp_motion_driver.h
